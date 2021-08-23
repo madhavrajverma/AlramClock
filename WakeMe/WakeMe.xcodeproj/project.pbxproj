@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E315FAB26CD6A7400BED2FC /* SwiftClockUI in Frameworks */ = {isa = PBXBuildFile; productRef = 1E315FAA26CD6A7400BED2FC /* SwiftClockUI */; };
+		1E315FAF26CD6D8400BED2FC /* QuoateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E315FAE26CD6D8400BED2FC /* QuoateViewModel.swift */; };
+		1E315FB726CD6F1800BED2FC /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E315FB626CD6F1800BED2FC /* Constant.swift */; };
+		1E315FBB26CD6F4E00BED2FC /* QuoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E315FBA26CD6F4E00BED2FC /* QuoteModel.swift */; };
+		1E315FC226CD83AF00BED2FC /* TimeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E315FC126CD83AF00BED2FC /* TimeCard.swift */; };
+		1E315FC526CD83D400BED2FC /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E315FC426CD83D400BED2FC /* Card.swift */; };
+		1E6F207226C7849800BC0D31 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6F207126C7849700BC0D31 /* Home.swift */; };
+		1E6F207526C784BA00BC0D31 /* WakeMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6F207426C784BA00BC0D31 /* WakeMe.swift */; };
+		1ED2D99326C4D94400F886C5 /* WakeMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED2D99226C4D94400F886C5 /* WakeMeApp.swift */; };
+		1ED2D99526C4D94400F886C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED2D99426C4D94400F886C5 /* ContentView.swift */; };
+		1ED2D99726C4D94900F886C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ED2D99626C4D94900F886C5 /* Assets.xcassets */; };
+		1ED2D99A26C4D94900F886C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ED2D99926C4D94900F886C5 /* Preview Assets.xcassets */; };
+		1ED5C41E26CEC76600861CF6 /* AddAlarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED5C41D26CEC76600861CF6 /* AddAlarm.swift */; };
+		1ED5C42626CED4D100861CF6 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED5C42526CED4D100861CF6 /* AudioPlayer.swift */; };
+		1ED5C42926CED5D000861CF6 /* SoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED5C42826CED5D000861CF6 /* SoundView.swift */; };
+		1ED5C47626CF66E400861CF6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED5C47526CF66E400861CF6 /* Persistence.swift */; };
+		1ED5C47A26CF671C00861CF6 /* Alarms.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1ED5C47826CF671C00861CF6 /* Alarms.xcdatamodeld */; };
+		1ED5C48326D164D600861CF6 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED5C48226D164D600861CF6 /* NotificationManager.swift */; };
+		1ED5C49426D1A04300861CF6 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED5C49326D1A04200861CF6 /* SignInView.swift */; };
+		1ED5C49826D1AC5300861CF6 /* EditProfileNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED5C49726D1AC5300861CF6 /* EditProfileNameView.swift */; };
+		1ED5C49B26D1B05D00861CF6 /* GetCurrentTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED5C49A26D1B05C00861CF6 /* GetCurrentTime.swift */; };
+		1ED5C49E26D1B36D00861CF6 /* SpeechSynthezier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED5C49D26D1B36D00861CF6 /* SpeechSynthezier.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E315FAE26CD6D8400BED2FC /* QuoateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoateViewModel.swift; sourceTree = "<group>"; };
+		1E315FB626CD6F1800BED2FC /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		1E315FBA26CD6F4E00BED2FC /* QuoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteModel.swift; sourceTree = "<group>"; };
+		1E315FC126CD83AF00BED2FC /* TimeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCard.swift; sourceTree = "<group>"; };
+		1E315FC426CD83D400BED2FC /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		1E6F207126C7849700BC0D31 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		1E6F207426C784BA00BC0D31 /* WakeMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeMe.swift; sourceTree = "<group>"; };
+		1ED2D98F26C4D94400F886C5 /* WakeMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WakeMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ED2D99226C4D94400F886C5 /* WakeMeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeMeApp.swift; sourceTree = "<group>"; };
+		1ED2D99426C4D94400F886C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1ED2D99626C4D94900F886C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1ED2D99926C4D94900F886C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1ED2D99B26C4D94900F886C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ED5C41D26CEC76600861CF6 /* AddAlarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlarm.swift; sourceTree = "<group>"; };
+		1ED5C42526CED4D100861CF6 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		1ED5C42826CED5D000861CF6 /* SoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundView.swift; sourceTree = "<group>"; };
+		1ED5C47526CF66E400861CF6 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		1ED5C47926CF671C00861CF6 /* Alarms.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Alarms.xcdatamodel; sourceTree = "<group>"; };
+		1ED5C48226D164D600861CF6 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		1ED5C48D26D17E5100861CF6 /* WakeMe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WakeMe.entitlements; sourceTree = "<group>"; };
+		1ED5C49326D1A04200861CF6 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		1ED5C49726D1AC5300861CF6 /* EditProfileNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileNameView.swift; sourceTree = "<group>"; };
+		1ED5C49A26D1B05C00861CF6 /* GetCurrentTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCurrentTime.swift; sourceTree = "<group>"; };
+		1ED5C49D26D1B36D00861CF6 /* SpeechSynthezier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechSynthezier.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1ED2D98C26C4D94400F886C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E315FAB26CD6A7400BED2FC /* SwiftClockUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E315FAD26CD6D7300BED2FC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1E315FAE26CD6D8400BED2FC /* QuoateViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1E315FB526CD6F0A00BED2FC /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				1E315FB626CD6F1800BED2FC /* Constant.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		1E315FB926CD6F3D00BED2FC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1E315FBA26CD6F4E00BED2FC /* QuoteModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1E6F207726C784C700BC0D31 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1E6F207126C7849700BC0D31 /* Home.swift */,
+				1E6F207426C784BA00BC0D31 /* WakeMe.swift */,
+				1E315FC126CD83AF00BED2FC /* TimeCard.swift */,
+				1E315FC426CD83D400BED2FC /* Card.swift */,
+				1ED5C41D26CEC76600861CF6 /* AddAlarm.swift */,
+				1ED5C42826CED5D000861CF6 /* SoundView.swift */,
+				1ED5C49326D1A04200861CF6 /* SignInView.swift */,
+				1ED5C49726D1AC5300861CF6 /* EditProfileNameView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1ED2D98626C4D94400F886C5 = {
+			isa = PBXGroup;
+			children = (
+				1ED2D99126C4D94400F886C5 /* WakeMe */,
+				1ED2D99026C4D94400F886C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1ED2D99026C4D94400F886C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1ED2D98F26C4D94400F886C5 /* WakeMe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1ED2D99126C4D94400F886C5 /* WakeMe */ = {
+			isa = PBXGroup;
+			children = (
+				1ED5C48D26D17E5100861CF6 /* WakeMe.entitlements */,
+				1ED5C47C26CF693E00861CF6 /* extension */,
+				1ED5C42426CED4BF00861CF6 /* Utils */,
+				1E6F207726C784C700BC0D31 /* View */,
+				1E315FB926CD6F3D00BED2FC /* Model */,
+				1E315FB526CD6F0A00BED2FC /* Constants */,
+				1E315FAD26CD6D7300BED2FC /* ViewModel */,
+				1ED2D99226C4D94400F886C5 /* WakeMeApp.swift */,
+				1ED2D99426C4D94400F886C5 /* ContentView.swift */,
+				1ED2D99626C4D94900F886C5 /* Assets.xcassets */,
+				1ED2D99B26C4D94900F886C5 /* Info.plist */,
+				1ED2D99826C4D94900F886C5 /* Preview Content */,
+				1ED5C47826CF671C00861CF6 /* Alarms.xcdatamodeld */,
+			);
+			path = WakeMe;
+			sourceTree = "<group>";
+		};
+		1ED2D99826C4D94900F886C5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1ED2D99926C4D94900F886C5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1ED5C42426CED4BF00861CF6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1ED5C42526CED4D100861CF6 /* AudioPlayer.swift */,
+				1ED5C47526CF66E400861CF6 /* Persistence.swift */,
+				1ED5C48226D164D600861CF6 /* NotificationManager.swift */,
+				1ED5C49A26D1B05C00861CF6 /* GetCurrentTime.swift */,
+				1ED5C49D26D1B36D00861CF6 /* SpeechSynthezier.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		1ED5C47C26CF693E00861CF6 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1ED2D98E26C4D94400F886C5 /* WakeMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ED2D99E26C4D94900F886C5 /* Build configuration list for PBXNativeTarget "WakeMe" */;
+			buildPhases = (
+				1ED2D98B26C4D94400F886C5 /* Sources */,
+				1ED2D98C26C4D94400F886C5 /* Frameworks */,
+				1ED2D98D26C4D94400F886C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WakeMe;
+			packageProductDependencies = (
+				1E315FAA26CD6A7400BED2FC /* SwiftClockUI */,
+			);
+			productName = WakeMe;
+			productReference = 1ED2D98F26C4D94400F886C5 /* WakeMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1ED2D98726C4D94400F886C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					1ED2D98E26C4D94400F886C5 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 1ED2D98A26C4D94400F886C5 /* Build configuration list for PBXProject "WakeMe" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1ED2D98626C4D94400F886C5;
+			packageReferences = (
+				1E315FA926CD6A7400BED2FC /* XCRemoteSwiftPackageReference "SwiftClockUI" */,
+			);
+			productRefGroup = 1ED2D99026C4D94400F886C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1ED2D98E26C4D94400F886C5 /* WakeMe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1ED2D98D26C4D94400F886C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ED2D99A26C4D94900F886C5 /* Preview Assets.xcassets in Resources */,
+				1ED2D99726C4D94900F886C5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1ED2D98B26C4D94400F886C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ED5C49426D1A04300861CF6 /* SignInView.swift in Sources */,
+				1ED5C49E26D1B36D00861CF6 /* SpeechSynthezier.swift in Sources */,
+				1E315FB726CD6F1800BED2FC /* Constant.swift in Sources */,
+				1ED5C48326D164D600861CF6 /* NotificationManager.swift in Sources */,
+				1ED2D99526C4D94400F886C5 /* ContentView.swift in Sources */,
+				1E315FC226CD83AF00BED2FC /* TimeCard.swift in Sources */,
+				1ED5C41E26CEC76600861CF6 /* AddAlarm.swift in Sources */,
+				1E315FBB26CD6F4E00BED2FC /* QuoteModel.swift in Sources */,
+				1E6F207526C784BA00BC0D31 /* WakeMe.swift in Sources */,
+				1E6F207226C7849800BC0D31 /* Home.swift in Sources */,
+				1E315FC526CD83D400BED2FC /* Card.swift in Sources */,
+				1ED5C47626CF66E400861CF6 /* Persistence.swift in Sources */,
+				1ED2D99326C4D94400F886C5 /* WakeMeApp.swift in Sources */,
+				1ED5C47A26CF671C00861CF6 /* Alarms.xcdatamodeld in Sources */,
+				1ED5C42926CED5D000861CF6 /* SoundView.swift in Sources */,
+				1ED5C49826D1AC5300861CF6 /* EditProfileNameView.swift in Sources */,
+				1E315FAF26CD6D8400BED2FC /* QuoateViewModel.swift in Sources */,
+				1ED5C49B26D1B05D00861CF6 /* GetCurrentTime.swift in Sources */,
+				1ED5C42626CED4D100861CF6 /* AudioPlayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1ED2D99C26C4D94900F886C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1ED2D99D26C4D94900F886C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1ED2D99F26C4D94900F886C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WakeMe/WakeMe.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WakeMe/Preview Content\"";
+				DEVELOPMENT_TEAM = GB2N5D5KZF;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = WakeMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.verma.madhav.WakeMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1ED2D9A026C4D94900F886C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WakeMe/WakeMe.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WakeMe/Preview Content\"";
+				DEVELOPMENT_TEAM = GB2N5D5KZF;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = WakeMe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.verma.madhav.WakeMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1ED2D98A26C4D94400F886C5 /* Build configuration list for PBXProject "WakeMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ED2D99C26C4D94900F886C5 /* Debug */,
+				1ED2D99D26C4D94900F886C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ED2D99E26C4D94900F886C5 /* Build configuration list for PBXNativeTarget "WakeMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ED2D99F26C4D94900F886C5 /* Debug */,
+				1ED2D9A026C4D94900F886C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1E315FA926CD6A7400BED2FC /* XCRemoteSwiftPackageReference "SwiftClockUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/renaudjenny/SwiftClockUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1E315FAA26CD6A7400BED2FC /* SwiftClockUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1E315FA926CD6A7400BED2FC /* XCRemoteSwiftPackageReference "SwiftClockUI" */;
+			productName = SwiftClockUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		1ED5C47826CF671C00861CF6 /* Alarms.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1ED5C47926CF671C00861CF6 /* Alarms.xcdatamodel */,
+			);
+			currentVersion = 1ED5C47926CF671C00861CF6 /* Alarms.xcdatamodel */;
+			path = Alarms.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1ED2D98726C4D94400F886C5 /* Project object */;
+}
